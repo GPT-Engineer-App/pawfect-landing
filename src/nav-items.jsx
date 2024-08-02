@@ -1,6 +1,7 @@
-import { Home, FileText } from "lucide-react";
+import { Home, FileText, LogIn } from "lucide-react";
 import Index from "./pages/Index.jsx";
 import Documents from "./pages/Documents.jsx";
+import Login from "./pages/Login.jsx";
 
 /**
  * Central place for defining the navigation items. Used for navigation components and routing.
@@ -17,5 +18,11 @@ export const navItems = [
     to: "/documents",
     icon: <FileText className="h-4 w-4" />,
     page: <Documents />,
+  },
+  {
+    title: "Login",
+    to: "/login",
+    icon: <LogIn className="h-4 w-4" />,
+    page: <Login />,
   },
 ];
