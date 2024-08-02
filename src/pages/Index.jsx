@@ -15,6 +15,7 @@ const Index = () => {
               <li><a href="#importance" className="text-blue-600 hover:text-blue-800">Importance</a></li>
               <li><a href="#fun-facts" className="text-blue-600 hover:text-blue-800">Fun Facts</a></li>
               <li><a href="/documents" className="text-blue-600 hover:text-blue-800">Documents</a></li>
+              <li><a href="/items" className="text-blue-600 hover:text-blue-800">Items</a></li>
               <li><a href="/login" className="text-blue-600 hover:text-blue-800">Login</a></li>
             </ul>
           </nav>
