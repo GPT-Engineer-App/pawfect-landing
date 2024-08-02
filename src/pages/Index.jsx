@@ -1,4 +1,4 @@
-import { Paw } from "lucide-react";
+import { PawPrint } from "lucide-react";
 
 const Index = () => {
   return (
@@ -6,7 +6,7 @@ const Index = () => {
       <header className="bg-white shadow-md">
         <div className="container mx-auto px-4 py-6 flex items-center justify-between">
           <div className="flex items-center">
-            <Paw className="h-8 w-8 text-blue-600 mr-2" />
+            <PawPrint className="h-8 w-8 text-blue-600 mr-2" />
             <h1 className="text-2xl font-bold text-blue-800">Paw-some Facts</h1>
           </div>
           <nav>
