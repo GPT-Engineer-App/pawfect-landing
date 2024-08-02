@@ -1,3 +1,4 @@
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { supabase } from '../integrations/supabase';
 import { Auth } from '@supabase/auth-ui-react';
@@ -18,13 +19,6 @@ const Login = () => {
           providers={[]}
           onlyThirdPartyProviders={false}
           redirectTo={window.location.origin}
-          onSuccess={() => {
-            toast.success("Logged in successfully");
-            navigate('/');
-          }}
-          onError={(error) => {
-            toast.error(error.message);
-          }}
         />
       </div>
     </div>
